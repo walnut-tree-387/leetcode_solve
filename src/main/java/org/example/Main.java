@@ -1,13 +1,11 @@
 package org.example;
-import org.example.Ace75.Medium.IncreasingTripletSubsequence;
-import org.example.Ace75.Medium.ProductOfArray;
-
-import java.util.Arrays;
+import org.example.Ace75.Medium.ContainerWithMostWater;
+import org.example.Ace75.Medium.MaxNumberOfKSumPairs;
 
 public class Main {
     public static void main(String[] args) {
-        IncreasingTripletSubsequence its = new IncreasingTripletSubsequence();
-        int[] a = {3, 9, 4, 8};
-        System.out.println(its.increasingTriplet(a));
+        MaxNumberOfKSumPairs obj = new MaxNumberOfKSumPairs();
+        int[] heights = {1,2,3,4};
+        System.out.println(obj.maxOperations(heights, 5));
     }
 }
